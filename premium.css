@@ -203,3 +203,6 @@ html,body{overflow-x:hidden;max-width:100%}
 .procedure-body ol{margin:0 0 6px;padding:0 0 0 20px;list-style:decimal}
 .complex-card .procedure-body li{padding:3px 0;border:0;font-size:15px;line-height:1.65;font-weight:400}
 .complex-card .procedure-body li::marker{color:#245675;font-weight:600}
+.procedure-body p{margin:0 0 7px}
+.procedure-body p b{font-weight:600;color:#3f6174}
+.procedure-body{padding-bottom:18px}
