@@ -194,3 +194,12 @@ html,body{overflow-x:hidden;max-width:100%}
 .footer-disclaimer{max-width:760px;margin:14px 0 0;font-size:12px;line-height:1.7;color:#6a7c87}
 .site-footer a,.brand,.to-top{display:inline-flex;align-items:center;min-height:44px}
 .brand{min-height:44px}
+
+/* Procedure details: structured expert description */
+.procedure-body{padding:2px 0 22px;color:#405e6d}
+.procedure-body p{padding:0;margin:0 0 6px;font-size:15px;line-height:1.7}
+.procedure-body .pd-lead{color:var(--ink);font-size:15px;line-height:1.7;margin-bottom:14px}
+.procedure-body h4{margin:16px 0 6px;font:600 11px/1.4 Onest,sans-serif;letter-spacing:1.1px;text-transform:uppercase;color:#3f6174}
+.procedure-body ol{margin:0 0 6px;padding:0 0 0 20px;list-style:decimal}
+.complex-card .procedure-body li{padding:3px 0;border:0;font-size:15px;line-height:1.65;font-weight:400}
+.complex-card .procedure-body li::marker{color:#245675;font-weight:600}
