@@ -206,3 +206,7 @@ html,body{overflow-x:hidden;max-width:100%}
 .procedure-body p{margin:0 0 7px}
 .procedure-body p b{font-weight:600;color:#3f6174}
 .procedure-body{padding-bottom:18px}
+
+/* Secondary booking button inside city card */
+.geo-card .primary-ghost{margin-top:10px;background:transparent;color:#245675;border:1.5px solid #245675;box-shadow:none}
+.geo-card .primary-ghost:hover{background:#e3edf2}
