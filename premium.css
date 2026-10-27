@@ -298,3 +298,6 @@ html,body{overflow-x:hidden;max-width:100%}
 .hero-photo picture{display:contents}
 .visit-track .stage-art:not(.show){background-image:none!important}
 .atlas-visual .process-art:not(.show),.hero-action-art .process-art:not(.show){background-image:none!important}
+
+/* prices strip: single line */ /* prices-strip single */
+.prices-strip a{grid-template-areas:"t i";min-height:60px}
