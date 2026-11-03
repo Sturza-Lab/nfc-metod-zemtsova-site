@@ -301,3 +301,17 @@ html,body{overflow-x:hidden;max-width:100%}
 
 /* prices strip: single line */ /* prices-strip single */
 .prices-strip a{grid-template-areas:"t i";min-height:60px}
+
+/* fascia steps: icons instead of numbers */
+.complex-card .procedure-body .fascia-steps{list-style:none;margin:4px 0 16px;padding:0;display:grid;gap:12px}
+.complex-card .procedure-body .fascia-steps li{display:flex;gap:14px;align-items:center;padding:0;border:0;margin:0}
+.fs-icon{flex:none;width:54px;height:54px;border-radius:18px;background:linear-gradient(145deg,#eef5f8,#d9e8ef);display:grid;place-items:center;color:#245675;box-shadow:inset 0 0 0 1px rgba(36,86,117,.1)}
+.fs-icon svg{width:31px;height:31px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.fs-icon .soft{opacity:.4}.fs-icon .fill{fill:#b7d3e1}.fs-icon .dot{fill:currentColor;stroke:none}
+.fs-text{display:block;font-size:15px;line-height:1.55;color:#405e6d}
+.fs-text b{display:block;font-weight:600;color:var(--ink)}
+.fs-text span{display:block;margin-top:2px}
+.complex-card .procedure-body .fs-text,.complex-card .procedure-body .fs-text b,.complex-card .procedure-body .fs-text span{font-family:inherit;font-size:15px;line-height:1.55;letter-spacing:0}
+.complex-card .procedure-body .fs-text b{font-weight:600}
+.complex-card .procedure-body .fs-text span{font-weight:400}
+.fs-icon{width:58px;height:58px}.fs-icon svg{width:34px;height:34px}
