@@ -6,40 +6,7 @@ ym(113838619,'init',{ssr:true,clickmap:true,ecommerce:'dataLayer',referrer:docum
 <noscript><div><img src="https://mc.yandex.ru/watch/113838619" style="position:absolute;left:-9999px" alt=""></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebSite", "name": "Нейрофасциальная коррекция - Александр Земцов", "url": "https://nfc.metod-zemtsova.ru/", "inLanguage": "ru"}, {"@context": "https://schema.org", "@type": "Person", "name": "Александр Земцов", "url": "https://nfc.metod-zemtsova.ru/", "image": "https://nfc.metod-zemtsova.ru/assets/og-image.jpg", "description": "Нейрофасциальная коррекция: Нейроправка Атланта, Спинатрия, фасциальная коррекция", "knowsAbout": ["нейрофасциальная коррекция", "нейроправка Атланта", "Спинатрия", "фасциальная коррекция"], "sameAs": ["https://metod-zemtsova.ru/"]}]</script>
-<style id="telegram-question-styles">
-  body{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
-  .question-contact{
-    position:fixed; right:16px; bottom:calc(16px + env(safe-area-inset-bottom,0px)); z-index:60;
-    display:inline-flex; align-items:center; gap:12px; max-width:calc(100% - 32px);
-    min-height:56px; padding:4px 4px 4px 16px; border:1px solid var(--line,#d5dfe3);
-    border-radius:999px; background:var(--paper-raised,#fff); color:var(--ink,#193448);
-    box-shadow:0 4px 24px rgba(10,35,55,.16); text-decoration:none;
-    font-family:inherit; font-size:14px; font-weight:600; line-height:1.3;
-    transition:box-shadow .16s ease;
-  }
-  .question-contact:focus-visible{outline:3px solid var(--amber,#2680bd); outline-offset:4px}
-  .question-contact__icon{
-    display:grid; place-items:center; flex:none; width:46px; height:46px;
-    border-radius:50%; background:#fff; color:#193448;
-  }
-  .question-contact__bubble{
-    position:relative; display:block; width:25px; height:21px;
-    border:2px solid currentColor; border-radius:9px; background:#fff;
-  }
-  .question-contact__bubble::before{
-    content:""; position:absolute; top:6px; left:5px; width:11px; height:2px;
-    border-radius:2px; background:currentColor; box-shadow:0 4px 0 currentColor;
-  }
-  .question-contact__bubble::after{
-    content:""; position:absolute; bottom:-5px; left:3px; width:6px; height:6px;
-    border-left:2px solid currentColor; border-bottom:2px solid currentColor;
-    background:#fff; transform:skewY(-30deg);
-  }
-  .review-modal-open .question-contact{visibility:hidden}
-  @media(max-width:360px){.question-contact{bottom:calc(4px + env(safe-area-inset-bottom,0px))}}
-  @media(hover:hover) and (pointer:fine){.question-contact:hover{box-shadow:0 6px 28px rgba(10,35,55,.25)}}
-  @media(prefers-reduced-motion:reduce){.question-contact{transition:none}}
-</style>
+<link rel="stylesheet" href="assets/question-form.css?v=20261114">
 </head><body><header id="top"><a class="brand" href="#top"><span>Александр Земцов</span></a><nav><a href="#nfk">О методе</a><a href="#visit">Как проходит приём</a><a href="#master">О мастере</a><a href="prices.html">Цены</a></nav><a class="top-book" href="#booking">Записаться на приём ↗</a></header><main><section class="hero" aria-labelledby="hero-heading"><figure class="hero-photo"><picture><source type="image/webp" srcset="assets/photo/aleksandr-cutout-3.webp"><img src="assets/photo/aleksandr-cutout-3.png" width="660" height="970" fetchpriority="high" decoding="async" alt="Александр Земцов"></picture><script>(function(){var i=document.querySelector(".hero-photo img");if(!i)return;var n=0;i.addEventListener("error",function(){n++;var s=i.parentNode.querySelector("source");if(n<3&&s){s.srcset="assets/photo/aleksandr-cutout-3.webp?r="+Date.now()}else{if(s)s.remove();if(n<5)i.src="assets/photo/aleksandr-cutout-3.png?r="+Date.now()}})})()</script></figure><div class="hero-content"><h1 id="hero-heading"><span>Нейрофасциальная</span> <span>коррекция</span></h1><p class="intro">Работа с телом при напряжении,<br class="desktop-break"> скованности и ограничении движения</p><div class="hero-action-area"><div><p class="details">Без резких скруток и хрустов</p></div><div class="hero-action-art"><div class="process-art art-probe" role="img" aria-label="Схематическое изображение точечной работы тонким щупом"></div></div></div></div></section>
 
 <section class="audio" id="audio"><button type="button" class="play" aria-label="Слушать аудио" id="play">▶</button><div><h2 class="audio-title">Сначала послушайте мой рассказ</h2><p class="audio-desc">Александр о своём подходе · 9 минут 57 секунд</p><div class="audio-row"><span id="current">0:00</span><input id="seek" aria-label="Позиция аудио" type="range" min="0" max="597" value="0"><span>9:57</span></div></div><p class="audio-status" id="audio-status" role="status" hidden></p><audio id="recording" preload="none" src="assets/audio/alexandr-nfk.mp3"></audio></section>
@@ -121,8 +88,34 @@ ym(113838619,'init',{ssr:true,clickmap:true,ecommerce:'dataLayer',referrer:docum
 </div></section>
 <section class="channel-section" id="channel" aria-labelledby="channel-heading"><div class="channel-card"><svg class="channel-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 3.3 2.9 10.5c-.9.4-.9 1.1-.2 1.3l4.7 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.2-.4-1.7-1.2-1.4Zm-3.1 3.3-8.5 7.7-.3 3.4-1.4-4.5 10.2-6.6Z"/></svg><div class="channel-text"><p class="eyebrow">Telegram</p><h2 id="channel-heading">Канал Александра о нейрофасциальной коррекции</h2></div><a class="primary" href="https://t.me/+24KRZ0RIMUxiZGE6" target="_blank" rel="noopener">Перейти в канал <span aria-hidden="true">↗</span></a></div></section>
 <dialog class="review-viewer" id="review-viewer" aria-labelledby="review-viewer-title"><div class="review-viewer-head"><h2 id="review-viewer-title">Отзыв клиента</h2><button type="button" class="review-viewer-close" aria-label="Закрыть отзыв">Закрыть ×</button></div><div class="review-viewer-body" tabindex="0" role="region" aria-label="Полный скриншот отзыва"><img id="review-viewer-image" alt="Оригинальный скриншот отзыва"></div><div class="review-viewer-controls"><button type="button" id="review-viewer-prev" aria-label="Предыдущий отзыв">←</button><span id="review-viewer-count" role="status"></span><button type="button" id="review-viewer-next" aria-label="Следующий отзыв">→</button></div></dialog></main><a class="mobile-book" href="#booking">Записаться на приём <span aria-hidden="true">↗</span></a><footer class="site-footer"><div class="footer-row"><span>Александр Земцов · Нейрофасциальная коррекция</span><a href="#top" class="to-top">Наверх ↑</a></div><p class="footer-disclaimer">Полезное: <a href="/guide-skolioz-u-vzroslyh/" style="text-decoration:underline">Сколиоз у взрослых</a> · <a href="/guide-golovnaya-bol-v-zatylke/" style="text-decoration:underline">Головная боль в затылке</a> · <a href="/guide-bol-v-shee-pri-povorote-golovy/" style="text-decoration:underline">Боль в шее при повороте головы</a> · <a href="/guide-raznaya-dlina-nog-u-vzroslyh/" style="text-decoration:underline">Разная длина ног у взрослых</a> · <a href="/guide-bol-v-shee-szadi/" style="text-decoration:underline">Боль в шее сзади</a> · <a href="/guide-prostrel-v-poyasnice/" style="text-decoration:underline">Прострел в пояснице</a> · <a href="/guide-uprazhneniya-dlya-osanki/" style="text-decoration:underline">Упражнения для осанки</a> · <a href="/guide-sheynyy-osteohondroz/" style="text-decoration:underline">Шейный остеохондроз</a> · <a href="/guide-podushka-pri-boli-v-shee/" style="text-decoration:underline">Подушка при боли в шее</a> · <a href="/guide-sutulost-u-vzroslyh/" style="text-decoration:underline">Сутулость у взрослых</a> · <a href="/guide-pravilnaya-osanka/" style="text-decoration:underline">Правильная осанка</a> · <a href="/guide-boli-v-shee-i-plechah/" style="text-decoration:underline">Боли в шее и плечах</a> · <a href="/guide-uprazhneniya-pri-sheynom-osteohondroze/" style="text-decoration:underline">Упражнения при шейном остеохондрозе</a> · <a href="/guide-protruziya-sheynogo-otdela/" style="text-decoration:underline">Протрузия шейного отдела</a> · <a href="/guide-sheynyy-lordoz/" style="text-decoration:underline">Шейный лордоз</a> · <a href="/guide-bol-v-poyasnice-pri-naklone/" style="text-decoration:underline">Боль в пояснице при наклоне</a> · <a href="/guide-bol-v-kopchike-pri-sidenii/" style="text-decoration:underline">Боль в копчике при сидении</a> · <a href="/guide-perekos-taza/" style="text-decoration:underline">Перекос таза</a> · <a href="/guide-vdoviy-gorb/" style="text-decoration:underline">Вдовий горб</a></p><p class="footer-disclaimer">Услуги не являются медицинскими и не заменяют консультацию врача. Имеются противопоказания, при заболеваниях и сомнениях сначала проконсультируйтесь с врачом</p></footer><script>const audio=document.querySelector('#recording'),play=document.querySelector('#play'),seek=document.querySelector('#seek');play.onclick=()=>audio.paused?audio.play().catch(()=>{const s=document.querySelector('#audio-status');s.hidden=false;s.textContent='Не удалось запустить аудио. Попробуйте ещё раз'}):audio.pause();audio.onplay=()=>{play.textContent='Ⅱ';play.setAttribute('aria-label','Пауза')};audio.onpause=()=>{play.textContent='▶';play.setAttribute('aria-label','Слушать аудио')};audio.ontimeupdate=()=>{seek.value=audio.currentTime;document.querySelector('#current').textContent=Math.floor(audio.currentTime/60)+':'+String(Math.floor(audio.currentTime%60)).padStart(2,'0')};seek.oninput=()=>audio.currentTime=Number(seek.value);</script><script src="premium.js" defer></script>
-<a class="question-contact" href="https://t.me/sturza29575" target="_blank" rel="noopener noreferrer" aria-label="Задать вопрос Марии в Telegram">
+<button class="question-contact" type="button" aria-haspopup="dialog" aria-controls="question-dialog" aria-label="Задать вопрос">
   <span>Задать вопрос</span>
   <span class="question-contact__icon" aria-hidden="true"><span class="question-contact__bubble"></span></span>
-</a>
+</button>
+<dialog class="question-dialog" id="question-dialog" aria-labelledby="question-heading" aria-describedby="question-intro">
+  <button class="question-dialog__close" type="button" aria-label="Закрыть форму">×</button>
+  <h2 class="question-dialog__title" id="question-heading">Задать вопрос</h2>
+  <p class="question-dialog__intro" id="question-intro">Оставьте email - ответим на него</p>
+  <form class="question-form" id="question-form" action="https://metod-zemtsova.ru/question-submit.php" method="post">
+    <label class="question-form__field">Имя
+      <input type="text" name="name" autocomplete="given-name" maxlength="100" required>
+    </label>
+    <label class="question-form__field">Email
+      <input type="email" name="email" autocomplete="email" inputmode="email" maxlength="254" required>
+    </label>
+    <label class="question-form__field">Ваш вопрос
+      <textarea name="question" rows="4" maxlength="6000" required></textarea>
+    </label>
+    <div class="question-form__trap" aria-hidden="true">
+      <label>Ваш сайт<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+    <label class="question-form__consent">
+      <input type="checkbox" name="consent" required>
+      <span>Согласен(на) на обработку имени, email и вопроса для ответа на обращение. <a href="https://metod-zemtsova.ru/politika.html" target="_blank" rel="noopener">Политика обработки данных</a></span>
+    </label>
+    <button class="question-form__submit" type="submit">Отправить вопрос</button>
+    <p class="question-form__status" id="question-status" role="status" aria-live="polite" hidden></p>
+  </form>
+</dialog>
+<script src="assets/question-form.js?v=20261114" defer></script>
 </body></html>
