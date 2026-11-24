@@ -315,3 +315,14 @@ html,body{overflow-x:hidden;max-width:100%}
 .complex-card .procedure-body .fs-text b{font-weight:600}
 .complex-card .procedure-body .fs-text span{font-weight:400}
 .fs-icon{width:58px;height:58px}.fs-icon svg{width:34px;height:34px}
+
+
+/* Большая кнопка записи на приём */
+.book-hero{margin:30px 0 6px}
+.book-big{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:78px;padding:20px 30px 20px 44px;border-radius:999px;background:linear-gradient(135deg,#2f7399 0%,#245675 52%,#183f57 100%);color:#fff;font-weight:600;font-size:clamp(19px,2.1vw,24px);letter-spacing:.01em;text-decoration:none;box-shadow:0 14px 34px rgba(24,63,87,.34),inset 0 1px 0 rgba(255,255,255,.24);transition:transform .18s ease,box-shadow .18s ease}
+.book-big:hover{transform:translateY(-2px);box-shadow:0 20px 44px rgba(24,63,87,.42),inset 0 1px 0 rgba(255,255,255,.28)}
+.book-big:active{transform:translateY(0);box-shadow:0 8px 22px rgba(24,63,87,.3)}
+.book-big:focus-visible{outline:3px solid #173849;outline-offset:4px}
+.book-big__arrow{display:grid;place-items:center;flex:none;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.2);font-size:26px;line-height:1}
+.book-big__note{margin:14px 0 0;font-size:15px;color:#4d6676}
+@media(max-width:640px){.book-hero{margin:24px 0 4px;width:calc(100vw - 48px);max-width:none;position:relative;z-index:3}.book-big{display:flex;width:100%;min-height:74px;padding:18px 22px 18px 30px;justify-content:space-between}.book-big__note{font-size:14px}}
