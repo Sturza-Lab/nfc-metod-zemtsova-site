@@ -336,3 +336,4 @@ html,body{overflow-x:hidden;max-width:100%}
 .footer-guides p{margin:8px 0 0;font-size:12px;line-height:1.9;color:#8a99a3}
 .footer-guides a{color:inherit!important;text-decoration:none!important}
 .footer-guides a:hover{color:#405d6f;text-decoration:underline!important}
+@media(max-width:760px){body:has(.mobile-book.visible) .question-contact{bottom:calc(92px + env(safe-area-inset-bottom,0px));min-height:48px;font-size:13px;box-shadow:0 4px 18px rgba(10,35,55,.18)}}
