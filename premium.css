@@ -326,3 +326,13 @@ html,body{overflow-x:hidden;max-width:100%}
 .book-big__arrow{display:grid;place-items:center;flex:none;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.2);font-size:26px;line-height:1}
 .book-big__note{margin:14px 0 0;font-size:15px;color:#4d6676}
 @media(max-width:640px){.book-hero{margin:24px 0 4px;width:calc(100vw - 48px);max-width:none;position:relative;z-index:3}.book-big{display:flex;width:100%;min-height:74px;padding:18px 22px 18px 30px;justify-content:space-between}.book-big__note{font-size:14px}}
+
+.footer-guides{max-width:760px;margin:14px 0 0}
+.footer-guides summary{cursor:pointer;font-size:12px;line-height:1.7;color:#6a7c87;list-style:none;display:inline-flex;align-items:center;gap:6px}
+.footer-guides summary::-webkit-details-marker{display:none}
+.footer-guides summary::after{content:"+";font-size:14px;line-height:1}
+.footer-guides[open] summary::after{content:"\2212"}
+.footer-guides summary:hover{color:#405d6f}
+.footer-guides p{margin:8px 0 0;font-size:12px;line-height:1.9;color:#8a99a3}
+.footer-guides a{color:inherit!important;text-decoration:none!important}
+.footer-guides a:hover{color:#405d6f;text-decoration:underline!important}
